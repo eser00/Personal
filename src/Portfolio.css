@@ -1,0 +1,112 @@
+.portfolio-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.portfolio-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+  position: relative;
+}
+
+.portfolio-title::after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: #444;
+  margin: 10px auto 0;
+  border-radius: 999px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.portfolio-card {
+  background: white;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: #2f2f36;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-content h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.project-content p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tech-pill {
+  padding: 6px 12px;
+  background: #eceef3;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn.demo {
+  background: #007bff;
+  color: white;
+}
+
+.btn.demo:hover {
+  background: #0056b3;
+}
+
+.btn.code {
+  background: #444;
+  color: white;
+}
+
+.btn.code:hover {
+  background: #222;
+}
