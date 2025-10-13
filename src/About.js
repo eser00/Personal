@@ -24,8 +24,8 @@ class About extends Component {
               and constantly improving my skills. Welcome to my portfolio!
             </p>
 
-            {/* ✅ Skills & Technologies section */}
-            <h2 className="skills-title">Skills &amp; Technologies</h2>
+          
+            <h2 className="skills-title">Skills & Technologies</h2>
             <ul className="skills-list">
               <li className="skill-pill">React</li>
               <li className="skill-pill">JavaScript</li>
